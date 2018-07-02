@@ -24,7 +24,7 @@ try
     if notDefined('sp')
         try
             % don't run this sentence twice otherwise you might have some problems...
-            sp = serial('COM5','BaudRate',57600);
+            sp = serial('COM4','BaudRate',57600);
         catch err
             disp(err)
             return
