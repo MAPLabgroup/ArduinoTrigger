@@ -1,0 +1,5 @@
+Arduino Due can act as an HID (e.g., mouse; keyboard)
+
+This demo programs the Due to take over your Windows PC, open a notepad, and send you a secret message.
+
+Note: the Due can talk to USB over both of its ports (Native and Programming), but can only mimic keyboard out over the Native port. So you must connect it to a computer over the Native port for this demo to work
